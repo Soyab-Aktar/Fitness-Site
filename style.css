@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
 .inter-body-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -26,30 +27,55 @@ body {
 .light-gray {
     color: #FFFFFF;
 }
+.button-gap{
+    margin-right: 14px;
+}
 
-#pri-button{
+#pri-button {
+    background-color: #E6533C;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 42px;
+    font-weight: 700;
+    font-size: 1.12rem;
+    border: none;
+}
+
+#sec-button {
     background-color: #E6533C;
     padding: 8px 20px;
     border-radius: 46px;
     font-weight: 700;
 }
 
+#thr-button {
+    background-color: black;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 42px;
+    font-weight: 700;
+    font-size: 1.12rem;
+    border: 1px solid white;
+}
+
 
 /* * NAVBAR */
-.navbar{
+.navbar {
     /* background-color:mediumspringgreen; */
     max-width: 80%;
-    margin:35px auto;
+    margin: 35px auto;
 
     justify-content: space-between;
     align-items: center;
 }
-.navbar-title{
+
+.navbar-title {
     font-size: 2.25rem;
     font-style: italic;
     font-weight: 900;
 }
-.navbar-options{
+
+.navbar-options {
     gap: 50px;
     border: 1px solid #ffffff4a;
     border-radius: 39px;
@@ -57,9 +83,51 @@ body {
     padding-right: 24px;
     align-items: center;
 }
-.option{
+
+.option {
     text-decoration: none;
     color: white;
     font-size: 1.125rem;
-    
+
+}
+
+/* * BANNER */
+.banner {
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.banner-welcome {
+    max-width: 40%;
+}
+
+.banner-title {
+    font-size: 4.87rem;
+    /* padding-right: 100px; */
+}
+
+#unique-title {
+    font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.6rem;
+    line-height:0.8;
+}
+
+.banner-para {
+    padding-right: 50px;
+    margin-bottom: 28px;
+}
+
+/* ! RESPONSIVE FOR MOBILE DEVICE */
+@media screen and (max-width:576px) {
+    .hero {
+        padding: 0px 20px;
+    }
+
+    .option {
+        display: none;
+    }
+
 }
