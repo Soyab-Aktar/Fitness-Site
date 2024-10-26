@@ -14,6 +14,10 @@ body {
     box-sizing: border-box;
     background-color: black;
 }
+section{
+    margin: 0 auto;
+    margin-top: 100px;
+}
 
 /*^ SHARED CSS */
 .displayflex {
@@ -26,6 +30,10 @@ body {
 
 .light-gray {
     color: #FFFFFF;
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: 800;
 }
 
 #pri-button {
@@ -119,6 +127,37 @@ body {
 
 .banner-button {
     gap: 24px;
+}
+
+/* * HABIT PAGE */
+.habit{
+    max-width: 80%;
+    flex-direction: column;
+    gap: 58px;
+    text-align: center;
+}
+.habit-about{
+    flex-direction: column;
+    gap: 15px;
+    max-width: 65%;
+    margin: 0 auto;
+}
+.habit-title{
+    margin: 0;
+}
+.habit-blocks{
+    gap: 40px;
+    justify-content: center;
+}
+.block{
+    max-width: 230px;
+}
+.block-title{
+    font-size: 1.12rem;
+    margin-bottom: 0;
+}
+.block img{
+    border-radius: 50%;
 }
 
 /* ! RESPONSIVE FOR MOBILE DEVICE */
