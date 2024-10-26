@@ -4,11 +4,62 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    color: white;
 }
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
+/*^ SHARED CSS */
+.displayflex {
+    display: flex;
+}
+
+.orange {
+    color: #E6533C;
+}
+
+.light-gray {
+    color: #FFFFFF;
+}
+
+#pri-button{
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border-radius: 46px;
+    font-weight: 700;
+}
+
+
+/* * NAVBAR */
+.navbar{
+    /* background-color:mediumspringgreen; */
+    max-width: 80%;
+    margin:35px auto;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-title{
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 900;
+}
+.navbar-options{
+    gap: 50px;
+    border: 1px solid #ffffff4a;
+    border-radius: 39px;
+    /* padding: 12px 24px; */
+    padding-right: 24px;
+    align-items: center;
+}
+.option{
+    text-decoration: none;
+    color: white;
+    font-size: 1.125rem;
+    
+}
