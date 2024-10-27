@@ -14,7 +14,8 @@ body {
     box-sizing: border-box;
     background-color: black;
 }
-section{
+
+section {
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -29,9 +30,10 @@ section{
 }
 
 .light-gray {
-    color: #FFFFFF;
+    color: #ffffff71;
 }
-.section-title{
+
+.section-title {
     font-size: 3rem;
     font-weight: 800;
 }
@@ -130,37 +132,82 @@ section{
 }
 
 /* * HABIT PAGE */
-.habit{
+.habit {
     max-width: 80%;
     flex-direction: column;
     gap: 58px;
     text-align: center;
 }
-.habit-about{
+
+.habit-about {
     flex-direction: column;
     gap: 15px;
     max-width: 65%;
     margin: 0 auto;
 }
-.habit-title{
+
+.habit-title {
     margin: 0;
 }
-.habit-blocks{
+
+.habit-blocks {
     gap: 40px;
     justify-content: center;
 }
-.block{
+
+.block {
     max-width: 230px;
 }
-.block-title{
+
+.block-title {
     font-size: 1.12rem;
     margin-bottom: 0;
 }
-.block-para{
+
+.block-para {
     font-size: 0.87rem;
 }
-.block img{
+
+.block img {
     border-radius: 50%;
+}
+
+/* * RUN */
+.run {
+    max-width: 58%;
+    background-color: #222222;
+    border-radius: 18px;
+    justify-content: space-between;
+    padding: 30px 32px 30px 54px;
+    align-items: center;
+}
+
+.run-about {
+    max-width: 443px;
+}
+
+.run-title {
+    margin: 0;
+}
+
+.run-img {
+    background-image: url(images/run.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+
+#run-button {
+    background-color: #E6533C;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 42px;
+    font-weight: 700;
+    font-size: 1.12rem;
+    border: none;
+    width: 220px;
 }
 
 /* ! RESPONSIVE FOR MOBILE DEVICE */
@@ -209,15 +256,35 @@ section{
     }
 
     /* ^ HABIT */
-    .habit-blocks{
+    .habit-blocks {
         flex-direction: column;
         align-items: center;
     }
-    .habit-about{
+
+    .habit-about {
         margin: 0;
         max-width: 100%;
     }
-    .habit-title{
+
+    .habit-title {
         font-size: 2.3rem;
+    }
+
+    /* ^ RUN */
+    .run {
+        flex-direction: column;
+        padding: 30px 33px;
+        gap: 30px;
+        max-width: 325px;
+    }
+    .run-title{
+        font-size: 2rem;
+    }
+    .run-img{
+        width: 325px;
+        height: 170px;
+    }
+    #run-button {
+        width: 325px;
     }
 }
