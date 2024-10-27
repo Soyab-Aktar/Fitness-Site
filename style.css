@@ -156,6 +156,9 @@ section{
     font-size: 1.12rem;
     margin-bottom: 0;
 }
+.block-para{
+    font-size: 0.87rem;
+}
 .block img{
     border-radius: 50%;
 }
@@ -205,4 +208,16 @@ section{
         max-width: 60%;
     }
 
+    /* ^ HABIT */
+    .habit-blocks{
+        flex-direction: column;
+        align-items: center;
+    }
+    .habit-about{
+        margin: 0;
+        max-width: 100%;
+    }
+    .habit-title{
+        font-size: 2.3rem;
+    }
 }
