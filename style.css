@@ -67,6 +67,12 @@ section {
 
 
 /* * NAVBAR */
+.hamburger-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
 .navbar {
     max-width: 80%;
     margin: 30px auto;
@@ -510,14 +516,19 @@ footer {
 /* ! RESPONSIVE FOR MOBILE DEVICE */
 @media screen and (max-width:576px) {
 
+    /* ^ NAVBAR */
+    .navbar-options {
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+    }
+
     /* ^ BANNER */
     .hero {
         padding: 0px 20px;
     }
 
-    .option {
-        display: none;
-    }
 
     .banner {
         flex-direction: column;
