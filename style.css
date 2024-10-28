@@ -130,9 +130,11 @@ section {
 .banner-button {
     gap: 24px;
 }
-.banner-img{
+
+.banner-img {
     position: relative;
 }
+
 .contain1,
 .contain2 {
     width: 206px;
@@ -141,43 +143,52 @@ section {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
-.contain1,.contain2{
+
+.contain1,
+.contain2 {
     position: absolute;
 }
-.contain1{
+
+.contain1 {
     justify-content: center;
     align-items: center;
     gap: 12px;
     top: 70%;
     left: -35%;
 }
-.ball{
+
+.ball {
     width: 40px;
     height: 40px;
     background-color: #E6533C;
     border-radius: 50%;
 }
-.contain1-title{
+
+.contain1-title {
     font-size: 1.5rem;
     margin: 0;
     margin-top: 12px;
 }
-.contain1-para{
+
+.contain1-para {
     margin-top: 5px;
     font-weight: lighter;
 }
-.contain2{
+
+.contain2 {
     padding-left: 24px;
     top: 20%;
     left: 60%;
 
 }
-.contain2-title{
+
+.contain2-title {
     font-size: 2.5rem;
     margin: 0;
     margin-top: 12px;
 }
-.contain2-para{
+
+.contain2-para {
     margin-top: 5px;
     font-weight: lighter;
 }
@@ -348,6 +359,18 @@ select {
 
 select {
     padding-left: 20px;
+}
+
+.bmi-button {
+    margin-top: 34px;
+    background-color: #E6533C;
+    color: white;
+    width: 224px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    font-weight: 700;
+    font-size: 1.12rem;
+    border: none;
 }
 
 /** TEAM */
@@ -528,13 +551,20 @@ footer {
     #thr-button {
         max-width: 60%;
     }
-    .contain1{
+
+    .contain1 {
         left: 2%;
     }
-    .contain2{
-        width: 170px;
-        top: 10%;
+
+    .contain2 {
+        width: 150px;
+        padding-left: 10px;
+        top: 30%;
         left: 50%;
+    }
+
+    .contain2-title {
+        font-size: 1.5rem;
     }
 
     /* ^ HABIT */
