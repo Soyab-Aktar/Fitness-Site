@@ -528,6 +528,14 @@ footer {
     #thr-button {
         max-width: 60%;
     }
+    .contain1{
+        left: 2%;
+    }
+    .contain2{
+        width: 170px;
+        top: 10%;
+        left: 50%;
+    }
 
     /* ^ HABIT */
     .habit-blocks {
