@@ -287,6 +287,43 @@ section {
     filter: brightness(80%);
 }
 
+/* * FOOTER */
+footer{
+    background-color: #222222;
+    margin-top: 88px;
+    padding: 66px 0px 36px 0px;
+}
+.footer-body{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.service{
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #525252;
+    width: 73.5%;
+    margin: auto;
+    margin-bottom: 36px;
+}
+.footer-title {
+    font-size: 4.37rem;
+    font-style: italic;
+    font-weight: 900;
+    margin: 0;
+}
+.club-talks{
+    max-width: 443px;
+}
+.contact-title{
+    font-size: 2rem;
+    color: white;
+}
+.copyright{
+    text-align: center;
+    /* margin: 36px 0px; */
+}
+
 
 
 
@@ -385,5 +422,22 @@ section {
     }
     .team-img{
         grid-template-columns: repeat(1,1fr);
+    }
+    
+    /* ^ FOOTER */
+    .footer-body{
+        max-width: 100%;
+        padding: 20px;
+    }
+    .service{
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 70px;
+    }
+    .contact-service{
+        width: 100%;
+    }
+    .contact-title{
+        margin: 0;
     }
 }
