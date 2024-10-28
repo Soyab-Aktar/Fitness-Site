@@ -130,6 +130,57 @@ section {
 .banner-button {
     gap: 24px;
 }
+.banner-img{
+    position: relative;
+}
+.contain1,
+.contain2 {
+    width: 206px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.contain1,.contain2{
+    position: absolute;
+}
+.contain1{
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    top: 70%;
+    left: -35%;
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+.contain1-title{
+    font-size: 1.5rem;
+    margin: 0;
+    margin-top: 12px;
+}
+.contain1-para{
+    margin-top: 5px;
+    font-weight: lighter;
+}
+.contain2{
+    padding-left: 24px;
+    top: 20%;
+    left: 60%;
+
+}
+.contain2-title{
+    font-size: 2.5rem;
+    margin: 0;
+    margin-top: 12px;
+}
+.contain2-para{
+    margin-top: 5px;
+    font-weight: lighter;
+}
 
 /* * HABIT PAGE */
 .habit {
@@ -230,7 +281,7 @@ td {
 
 .bmi-calculator {
     background-color: #222222;
-    padding:50px 0px;
+    padding: 50px 0px;
     /* height: 400px; */
 }
 
@@ -278,6 +329,7 @@ th {
     display: flex;
     gap: 12px;
 }
+
 input[type="text"],
 select {
     flex: 1;
@@ -293,9 +345,11 @@ input::placeholder,
 select {
     color: rgb(190, 190, 190);
 }
+
 select {
     padding-left: 20px;
 }
+
 /** TEAM */
 .team {
     flex-direction: column;
@@ -511,30 +565,37 @@ footer {
     #run-button {
         width: 325px;
     }
+
     /* ^ BMI */
-    .bmi-form-details{
+    .bmi-form-details {
         flex-direction: column;
     }
-    .bmi-intro{
+
+    .bmi-intro {
         margin-bottom: 32px;
-        padding:0px 10px;
+        padding: 0px 10px;
     }
-    .intro-title{
+
+    .intro-title {
         font-size: 2rem;
     }
-    .chart-title{
+
+    .chart-title {
         font-size: 1rem;
     }
-    .bmi-calculator{
+
+    .bmi-calculator {
         padding-top: 20px;
     }
-    .bmi-form-details{
+
+    .bmi-form-details {
         max-width: 100%;
         padding: 0px 10px;
         gap: 30px;
     }
-    .weight{
-        width:100%;
+
+    .weight {
+        width: 100%;
     }
 
     /* ^ TEAM */
